@@ -1,6 +1,3 @@
-
-in array checking
-================
 read opt
 A=("Y" "y")
 if [[ " ${A[*]} " == *" $opt "* ]]; then
