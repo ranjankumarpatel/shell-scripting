@@ -53,9 +53,7 @@ One word: either &quot;SCALENE&quot; or &quot;EQUILATERAL&quot; or &quot;ISOSCEL
 
 <h2>SOLUTION</h2>
 
-<p>&nbsp;</p>
-
-<p><code>read a<br />
+<p>read a<br />
 read b<br />
 read c<br />
 if [ &quot;$a&quot; -eq &quot;$b&quot; ] || [ &quot;$b&quot; -eq &quot;$c&quot; ] || [ &quot;$a&quot; -eq &quot;$c&quot; ];then<br />
@@ -67,6 +65,4 @@ if [ &quot;$a&quot; -eq &quot;$b&quot; ] || [ &quot;$b&quot; -eq &quot;$c&quot; 
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
 else<br />
 &nbsp; &nbsp; echo &quot;SCALENE&quot;<br />
-fi</code></p>
-
-<p>&nbsp;</p>
+fi</p>
