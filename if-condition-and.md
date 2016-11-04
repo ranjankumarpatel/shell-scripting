@@ -37,18 +37,18 @@ Sample Output 2
 EQUILATERAL  
 
 <code>
-read a
-read b
-read c
-if [ "$a" -eq "$b" ] || [ "$b" -eq "$c" ] || [ "$a" -eq "$c" ];then
-    if [ "$a" -eq "$b" ] && [ "$a" -eq "$c" ];then
-        echo "EQUILATERAL"
-    else
-        echo "ISOSCELES"
-    fi
-        
-else
-    echo "SCALENE"
-fi
+<p>read a</p>
+<p>read b</p>
+<p>read c</p>
+<p>if [ "$a" -eq "$b" ] || [ "$b" -eq "$c" ] || [ "$a" -eq "$c" ];then</p>
+<p>    if [ "$a" -eq "$b" ] && [ "$a" -eq "$c" ];then</p>
+<p>        echo "EQUILATERAL" </p>
+<p>    else</p>
+<p>        echo "ISOSCELES"</p>
+<p>    fi</p>
+<p>        </p>
+<p>else</p>
+<p>    echo "SCALENE"</p>
+<p>fi</p>
 
 </code>
