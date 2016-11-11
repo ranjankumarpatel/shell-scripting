@@ -91,10 +91,10 @@ Your task is to evaluate the expression and display the output correct to&nbsp;&
 
 <h1><code>SOLUTIONS</code></h1>
 
-<p><code>read a<br />
+<p>read a<br />
 #echo &quot;scale = 3; $a&quot; | bc -l<br />
 #echo $(printf %.3f $(echo &quot;scale=3;$a&quot; | bc -l))<br />
 #echo $(round $a/1 3);<br />
-printf %.3f $(echo &quot;$a&quot; | bc -l)</code></p>
+printf %.3f $(echo &quot;$a&quot; | bc -l)</p>
 
 <p>&nbsp;</p>
